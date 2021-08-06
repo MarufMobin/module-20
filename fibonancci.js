@@ -64,6 +64,12 @@ console.log( creatFibonaccis ); */
 
 function createFebonaccisSeries( numbers ){
 
+    if( typeof numbers != 'number'){
+       return "Please Give a Number";
+    }
+    if( numbers < 2){
+        return "Please give a Number Bigger Then 1";
+    }
     let fibo = [ 0, 1];
 
     for( let i = 2; i < numbers; i++){
@@ -75,7 +81,7 @@ function createFebonaccisSeries( numbers ){
 }
 
 
-const numbers = 7;
+const numbers = 4;
 
 const creatFibonaccis = createFebonaccisSeries( numbers );
 
