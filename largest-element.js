@@ -108,4 +108,29 @@ console.log( result ); */
 
 // Using a Fanction to find out a smaller number of in a array
 
+/* function findSmallNumber( numbers ){
+
+    let smallerNumber = numbers[0];
+
+    for( let i = 0; i < numbers.length; i++ ){
+
+        let element = numbers[i];
+
+        if( element < smallerNumber ){
+
+            smallerNumber = element;
+        }
+    }
+
+    return smallerNumber;
+
+}
+
+
+const numbers = [ 156, 84, 52, 16, 88, 15, 74, 90, 2 ];
+
+const result = findSmallNumber( numbers );
+
+console.log( result ); */
+
 
